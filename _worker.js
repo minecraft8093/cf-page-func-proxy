@@ -1,7 +1,7 @@
 addEventListener(
   'fetch',event => {
      let url=new URL(event.request.url);
-     url.hostname='argochat.uptek.top"';
+     url.hostname='argochat.uptek.top';
      if(url.protocol == 'https:') {
         url.protocol='http:'
      }
