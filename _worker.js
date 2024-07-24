@@ -7,7 +7,7 @@ export default {
 
         if (url.pathname.startsWith('/')) {
             // 自定义主机名
-            url.hostname = "chat.uptek.top";
+            url.hostname = "argochat.uptek.top";
 
             let new_request = new Request(url, request);
 
